@@ -24,6 +24,7 @@ public class PersonDO {
     @Column(nullable = false)
     private String favoriteColor;
 
+    @ElementCollection
     @Column(nullable = false)
     private List<String> hobby;
 
